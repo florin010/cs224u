@@ -51,6 +51,7 @@ class GloVe:
             Whether to print iteration number and current error to stdout.
 
         """
+        self.n = n      
         self.n = n
         self.xmax = xmax
         self.alpha = alpha
