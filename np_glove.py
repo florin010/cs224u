@@ -98,6 +98,8 @@ class GloVe:
                     fdiff = diff * weight
                     # Gradients:
                     wgrad = fdiff * C[j]
+                    wbgrad = fdiff
+                    wcgrad = fdiff
                     cgrad = fdiff * W[i]
                     wbgrad = fdiff
                     wcgrad = fdiff
