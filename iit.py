@@ -24,8 +24,7 @@ def get_IIT_equality_dataset(variable, embed_dim, size):
     class_size = size/2
     train_dataset = IIT_PremackDataset(
         variable,
-        embed_dim=embed_dim,
-        n_pos=class_size,
+    
         n_neg=class_size)
     X_base_train, X_sources_train, y_base_train, y_IIT_train, interventions = train_dataset.create()
    
