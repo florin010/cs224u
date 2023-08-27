@@ -4,10 +4,6 @@ Code for [the Stanford course](http://web.stanford.edu/class/cs224u/).
 
 Spring 2022
 
-[Christopher Potts](http://web.stanford.edu/~cgpotts/)
-
-
-# Core components
 
 
 ## `setup.ipynb`
