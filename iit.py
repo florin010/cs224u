@@ -1,8 +1,6 @@
 import numpy as np
 import random
 import torch
-from utils import randvec
-
 __author__ = "Atticus Geiger"
 __version__ = "CS224u, Stanford, Spring 2022
 def get_IIT_equality_dataset_both(embed_dim, size):
