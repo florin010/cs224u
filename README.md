@@ -18,7 +18,7 @@ Introductions to Juypter notebooks, scientific computing with NumPy and friends,
 
 ## `torch_*.py` modules
 
-A generic optimization class (`torch_model_base.py`) and subclasses for GloVe, Autoencoders, shallow neural classifiers, RNN classifiers, tree-structured networks, and grounded natural language generation.
+A generic optimization class (`torch_model_base.py`) and subclasses for GloVe, Autoencoders, shallow neural classifiers, RNN classifiers, tree-structured networks
 
 `tutorial_pytorch_models.ipynb` shows how to use these modules as a general framework for creating original systems.
 
